@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE09DF81F4A87650022687B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE09DF71F4A87650022687B /* AppDelegate.m */; };
+		3BE09DFB1F4A87650022687B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE09DFA1F4A87650022687B /* main.m */; };
+		3BE09DFE1F4A87650022687B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE09DFD1F4A87650022687B /* ViewController.m */; };
+		3BE09E001F4A87650022687B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE09DFF1F4A87650022687B /* Assets.xcassets */; };
+		3BE09E031F4A87650022687B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE09E011F4A87650022687B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BE09DF31F4A87650022687B /* CrackGoogleMapPolyline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrackGoogleMapPolyline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE09DF61F4A87650022687B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BE09DF71F4A87650022687B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BE09DFA1F4A87650022687B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BE09DFC1F4A87650022687B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BE09DFD1F4A87650022687B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BE09DFF1F4A87650022687B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE09E021F4A87650022687B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BE09E041F4A87650022687B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE09DF01F4A87650022687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE09DEA1F4A87650022687B = {
+			isa = PBXGroup;
+			children = (
+				3BE09DF51F4A87650022687B /* CrackGoogleMapPolyline */,
+				3BE09DF41F4A87650022687B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE09DF41F4A87650022687B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE09DF31F4A87650022687B /* CrackGoogleMapPolyline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE09DF51F4A87650022687B /* CrackGoogleMapPolyline */ = {
+			isa = PBXGroup;
+			children = (
+				3BE09DF61F4A87650022687B /* AppDelegate.h */,
+				3BE09DF71F4A87650022687B /* AppDelegate.m */,
+				3BE09DFC1F4A87650022687B /* ViewController.h */,
+				3BE09DFD1F4A87650022687B /* ViewController.m */,
+				3BE09DFF1F4A87650022687B /* Assets.xcassets */,
+				3BE09E011F4A87650022687B /* Main.storyboard */,
+				3BE09E041F4A87650022687B /* Info.plist */,
+				3BE09DF91F4A87650022687B /* Supporting Files */,
+			);
+			path = CrackGoogleMapPolyline;
+			sourceTree = "<group>";
+		};
+		3BE09DF91F4A87650022687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE09DFA1F4A87650022687B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE09DF21F4A87650022687B /* CrackGoogleMapPolyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE09E071F4A87650022687B /* Build configuration list for PBXNativeTarget "CrackGoogleMapPolyline" */;
+			buildPhases = (
+				3BE09DEF1F4A87650022687B /* Sources */,
+				3BE09DF01F4A87650022687B /* Frameworks */,
+				3BE09DF11F4A87650022687B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackGoogleMapPolyline;
+			productName = CrackGoogleMapPolyline;
+			productReference = 3BE09DF31F4A87650022687B /* CrackGoogleMapPolyline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE09DEB1F4A87650022687B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = nimoAndHisFriends;
+				TargetAttributes = {
+					3BE09DF21F4A87650022687B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BE09DEE1F4A87650022687B /* Build configuration list for PBXProject "CrackGoogleMapPolyline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BE09DEA1F4A87650022687B;
+			productRefGroup = 3BE09DF41F4A87650022687B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE09DF21F4A87650022687B /* CrackGoogleMapPolyline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE09DF11F4A87650022687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE09E001F4A87650022687B /* Assets.xcassets in Resources */,
+				3BE09E031F4A87650022687B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE09DEF1F4A87650022687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE09DFE1F4A87650022687B /* ViewController.m in Sources */,
+				3BE09DFB1F4A87650022687B /* main.m in Sources */,
+				3BE09DF81F4A87650022687B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BE09E011F4A87650022687B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE09E021F4A87650022687B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BE09E051F4A87650022687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BE09E061F4A87650022687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BE09E081F4A87650022687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrackGoogleMapPolyline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimomeng.and.his.friends.CrackGoogleMapPolyline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BE09E091F4A87650022687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrackGoogleMapPolyline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimomeng.and.his.friends.CrackGoogleMapPolyline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE09DEE1F4A87650022687B /* Build configuration list for PBXProject "CrackGoogleMapPolyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE09E051F4A87650022687B /* Debug */,
+				3BE09E061F4A87650022687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE09E071F4A87650022687B /* Build configuration list for PBXNativeTarget "CrackGoogleMapPolyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE09E081F4A87650022687B /* Debug */,
+				3BE09E091F4A87650022687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE09DEB1F4A87650022687B /* Project object */;
+}

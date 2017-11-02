@@ -1,3 +1,6 @@
+version updated to 1.1
+In this version we tranfer the encoded string into JSON directly.
+
 # decodeGoogleMapPolyline
 #### This project provide a mac app for decode gooogleMap's polyline points into readable poionts
 

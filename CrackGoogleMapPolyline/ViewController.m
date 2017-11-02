@@ -23,12 +23,30 @@
 - (void)goAction:(id)sender {
     NSString *rawData = [self.inputField stringValue];
     NSString *result = [ViewController polylineWithEncodedString:rawData];
-    [self.resultField setString:result];
+    [self.resultField setString:[self translateToJsonString:result]];
 }
 
 - (void)clearAction:(id)sender {
     [self.inputField setStringValue:@""];
     [self.resultField setString:@""];
+}
+
+- (NSString *)translateToJsonString:(NSString *)origin {
+    NSArray *arr = [origin componentsSeparatedByString:@";"];
+    NSMutableArray *resultArray = [NSMutableArray new];
+    for (NSString *item in arr) {
+        NSArray *itemArray = [item componentsSeparatedByString:@","];
+        if (itemArray.count > 1) {
+            NSString *finalItemString = [NSString stringWithFormat:@"{\"lng\":%@,\"lat\":%@}",itemArray[1],itemArray[0]];
+            [resultArray addObject:finalItemString];
+        }
+        else {
+            NSLog(@"");
+        }
+    }
+    
+    NSString *result = [resultArray componentsJoinedByString:@","];
+    return result;
 }
 
 + (NSString *)polylineWithEncodedString:(NSString *)encodedString {
